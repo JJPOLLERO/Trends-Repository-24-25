@@ -1,1 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            width: 100%;
+            max-width: 21cm; 
+            height: 29.7cm; 
+            box-sizing: border-box;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .left-column {
+            width: 40%;
+        }
+        .right-column {
+            width: 55%;
+        }
+        img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        }
+        hr {
+            border: 1px solid #000;
+            margin: 10px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        img {
+            width: 80%;
+            height: auto;
+    </style>
+</head>
+<body>
 
+    <div class="content">
+        <div class="left-column">
+            <img src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t1.15752-9/476299407_1725998187950985_4282467821602529549_n.png?_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHuxi7MnFswKJG-aTCO6-SWVcsVcGr7jwBVyxVwavuPALkFMXhiR_DoaMH-169aZCEjx4rsep8F07ashcaZ1FDR&_nc_ohc=aJBb9O4PHoAQ7kNvgFfm6kw&_nc_oc=AdggJP5VW0EBbFodtT2camQOYbTiE8iWxD3sHibUQzpgFhxY4W1_CeZC064ECHRzdOk&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&oh=03_Q7cD1gEgtmz7Q0MZw9Ee5r7DkjhKka3hm-npYfhAu1xArAyEnw&oe=67D4180E" >
+        </div>
+
+        <div class="right-column">
+            <h1>John Joseph T. Pollero</h1>
+            <p><strong>Address:</strong> 2nd Street Progress Homes Subd. San Cicente Canaman Camarines Sur</p>
+            <p><strong>Contact:</strong> 09125619187 | jpollero@gbox.adnu.edu.ph</p>
+            <p><strong>Personal Statement:</strong> Always open for lessons and learning that can be obtain in hardships or mentorship.</p>
+            
+            <hr>
+            
+            <h2>Education</h2>
+            <table>
+                <tr>
+                    <th>Year</th>
+                    <th>Degree</th>
+                    <th>School</th>
+                </tr>
+                <tr>
+                    <td>2022 - present</td>
+                    <td>Bachelor of Science in Information Technology</td>
+                    <td>Ateneo De Naga University</td>
+                </tr>
+                <tr>
+                    <td>2020-2022</td>
+                    <td>Senior High School</td>
+                    <td>Camarines Sur National High School</td>
+                </tr>
+                <tr>
+                    <td>2017-2020</td>
+                    <td>Junior High School</td>
+                    <td>Camarines Sur National High School</td>
+                </tr>
+                <tr>
+                    <td>2010-2017</td>
+                    <td>Elementary</td>
+                    <td>Tacolod Elementary School Annex</td>
+                </tr>
+                
+            </table>
+
+            <hr>
+
+            <h2>Skills</h2>
+            <ul>
+                <li><b>General Skills:</b> Communication, Teamwork, Time Management, Leadership</li>
+                <li><b>Technical Skills:</b> C++,Python,Networking</li>
+            </ul>
+
+            <hr>
+
+            <h2>Character References</h2>
+            <ol>
+                <li><b>Rizaldy S. Peralta - CEO at Bong Peralta Taekwondo Center | 0905 233 6233</li>
+            </ol>
+
+            <hr>
+
+            <h2>Additional Information</h2>
+            <h3>Experience</h3>
+            <ul>
+                <li>Assistant Coach in Taekwondo : 2022 - Present</li>
+                <li>Technical Vocational immersion in Computer System Servicing : April 2022 - May 2022 </li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
